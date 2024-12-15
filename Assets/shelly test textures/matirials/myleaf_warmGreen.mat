@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Broadleaf_Purple
+  m_Name: myleaf_warmGreen
   m_Shader: {fileID: -6465566751694194690, guid: 3230f6c5d09dd114c82b2287fcc7e15b, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -114,11 +114,11 @@ Material:
     - _BEND_WIND_OVERLAY: 0
     - _BOOLEAN_1: 0
     - _Bend: 0
-    - _Bend_Strength: 0
+    - _Bend_Strength: 0.27
     - _Blend: 0
     - _BlendHeight: 1.29
     - _BlendModePreserveSpecular: 0
-    - _Blend_Height: 0.304
+    - _Blend_Height: 0.186
     - _BumpScale: 1
     - _CAST_SHADOWS: 0
     - _CAST_SHADOWS_OFF: 0
@@ -156,7 +156,7 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _Start_Bend_Range: 0
+    - _Start_Bend_Range: 1
     - _Start_to_bend_range: 0
     - _Surface: 0
     - _Value: 0
@@ -175,13 +175,13 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _BottomColor: {r: 0.51857907, g: 0.5377358, b: 0.0025364957, a: 0}
-    - _Bottom_Color: {r: 0.30762234, g: 0.08419366, b: 0.41509432, a: 1}
+    - _Bottom_Color: {r: 0.4056604, g: 0.27136165, b: 0.17795478, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Player_Position: {r: 0, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _TopColor: {r: 0.58158517, g: 0.754717, b: 0, a: 0}
-    - _Top_Color: {r: 0.70935524, g: 0.48794055, b: 0.8018868, a: 1}
+    - _Top_Color: {r: 0.9339623, g: 0.8690916, b: 0.41852084, a: 0}
     - _WindDirection: {r: 0.1, g: 0.1, b: 0, a: 0}
     - _Wind_Direction: {r: 0.1, g: 0.1, b: 0, a: 0}
   m_BuildTextureStacks: []
