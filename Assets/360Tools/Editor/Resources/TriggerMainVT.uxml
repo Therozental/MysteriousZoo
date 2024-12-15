@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+
+    <VisualElement name="main-cont">
+        <Image name="look_enter_icon" class="event-icon"/>
+        <Label name="look-enter-actions-counter" class="actions-counter"/>
+        <Foldout name="look-enter-event-container" class="event-container" value="false">
+            <Button name="add-action-look-enter" class="add-buttons" text="+ Add look enter action"/>
+        </Foldout>
+
+        <Image name="look_exit_icon" class="event-icon"/>
+        <Label name="look-exit-actions-counter" class="actions-counter"/>
+        <Foldout name="look-exit-event-container" class="event-container" value="false">
+            <Button name="add-action-look-exit" class="add-buttons" text="+ Add look exit action"/>
+        </Foldout>
+
+        <Image name="pointer_enter_icon" class="event-icon"/>
+        <Label name="pointer-enter-actions-counter" class="actions-counter"/>
+        <Foldout name="pointer-enter-event-container" class="event-container" value="false">
+            <Button name="add-action-pointer-exit" class="add-buttons" text="+ Add pointer enter action"/>
+        </Foldout>
+
+        <Image name="pointer_exit_icon" class="event-icon"/>
+        <Label name="pointer-exit-actions-counter" class="actions-counter"/>
+        <Foldout name="pointer-exit-event-container" class="event-container" value="false">
+            <Button name="add-action-pointer-exit" class="add-buttons" text="+ Add pointer exit action"/>
+        </Foldout>
+        
+        <Image name="click_icon" class="event-icon"/>
+        <Label name="on-click-actions-counter" class="actions-counter"/>
+        <Foldout name="on-click-event-container" class="event-container" value="false">
+            <Button name="add-action-on-click" class="add-buttons" text="+ Add click action"/>
+        </Foldout>
+    </VisualElement>
+    
+</UXML>

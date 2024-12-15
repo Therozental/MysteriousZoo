@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UXML xmlns="UnityEngine.UIElements">
+
+    <Box class="basic-action-item">
+        
+        <Label class="action-type-title"/>
+        <Button class="remove-button" text="╳"/>
+
+    </Box>
+    
+</UXML>

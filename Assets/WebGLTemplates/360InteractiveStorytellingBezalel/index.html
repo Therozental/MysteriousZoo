@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{{ PRODUCT_NAME }}}</title>
+    <link rel="icon" 
+      type="image/png" 
+      href="img/favicon.png">
+    <style>
+      body {
+        position: absolute; top:0; right:0; bottom:0; left: 0; margin: 0; padding: 0;
+      } 
+
+      #unity-canvas {
+        width: 100%; height: 100%;
+      }
+      
+      #fullscreen-toggle {
+        position: absolute; top: 15px; left: 15px; width: 30px; height: 30px; cursor: pointer;
+        display: none;
+      }
+
+      #loading-cont {
+        position: absolute; top:0; right:0; bottom:0; left: 0;
+        z-index: 999;
+        background-color: rgb(227, 227, 227);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        pointer-events: none;
+        opacity: 1;
+        transition: opacity 0.5s ease-out;
+      }
+
+      #progress-bar-cont {
+        width: 100px;
+        height: 8px;
+        background-color: white;
+      }
+
+      #progress-bar-fill {
+        width: 0%;
+        height: 100%;
+        background-color: #ff4c0d;
+      }
+
+    </style>
+  </head>
+  <body>
+    <canvas id="unity-canvas"></canvas>
+    <img 
+      id="fullscreen-toggle" 
+      src="img/fullscreen_icon.svg" 
+    >
+    <div id="loading-cont">
+      <img 
+        id="loading-icon"
+        src="img/loading_0.png"
+      >
+      <div id="progress-bar-cont">
+        <div id="progress-bar-fill"></div>
+      </div>
+    </div>
+
+    <script src="Build/{{{ LOADER_FILENAME }}}"></script>
+    <script>
+      var loadingIcon = document.getElementById("loading-icon");
+      var progressBar = document.getElementById("progress-bar-fill");
+      var unityInstance = createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/{{{ DATA_FILENAME }}}",
+        frameworkUrl: "Build/{{{ FRAMEWORK_FILENAME }}}",
+        codeUrl: "Build/{{{ CODE_FILENAME }}}",
+#if MEMORY_FILENAME
+        memoryUrl: "Build/{{{ MEMORY_FILENAME }}}",
+#endif
+#if SYMBOLS_FILENAME
+        symbolsUrl: "Build/{{{ SYMBOLS_FILENAME }}}",
+#endif
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "{{{ COMPANY_NAME }}}",
+        productName: "{{{ PRODUCT_NAME }}}",
+        productVersion: "{{{ PRODUCT_VERSION }}}",
+      }, ( progress ) => {
+        // On progress:
+
+        progressBar.style.width = `${progress*100}%`;
+
+        if( progress > 0.9 ) { loadingIcon.src = "img/loading_1.png" }
+
+        if( progress >= 1 ) {
+          // Remove loader DOM element:
+          var loadingCont = document.getElementById("loading-cont");
+
+          setTimeout( () => {
+            // Wait until Unity splash is done...
+            loadingIcon.src = "img/loading_2.png"
+
+            loadingCont.style.opacity = 0;
+            setTimeout( () => {
+              loadingCont.parentNode.removeChild(loadingCont);
+            }, 600 );
+          }, 2000)
+
+        }
+
+      });
+
+      window.onload = () => {
+        const canvas = document.getElementById("unity-canvas");
+        canvas.setAttribute('width', window.innerWidth );
+        canvas.setAttribute('height', window.innerHeight );
+
+        const fullscreenToggle = document.getElementById( 'fullscreen-toggle' );
+        fullscreenToggle.onclick = () => {
+          if (!document.fullscreenElement) {
+              document.documentElement.requestFullscreen();
+          } else {
+            if (document.exitFullscreen) {
+              document.exitFullscreen(); 
+            }
+          }
+        }
+
+      }
+    </script>
+  </body>
+</html>
