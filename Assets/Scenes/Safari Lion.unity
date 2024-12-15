@@ -819,8 +819,82 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1880760399789568810, guid: 53ba7de031b834878b032b530b3edf97, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1866137888806683077}
+    - targetCorrespondingSourceObject: {fileID: 1880760399789568810, guid: 53ba7de031b834878b032b530b3edf97, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1866137888806683076}
   m_SourcePrefab: {fileID: 100100000, guid: 53ba7de031b834878b032b530b3edf97, type: 3}
+--- !u!1 &1866137888806683075 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1880760399789568810, guid: 53ba7de031b834878b032b530b3edf97, type: 3}
+  m_PrefabInstance: {fileID: 1866137888806683074}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1866137888806683076
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866137888806683075}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 1
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 1866137888806683075}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+--- !u!65 &1866137888806683077
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1866137888806683075}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.1612442, y: 0.6289583, z: 3.0690207}
+  m_Center: {x: -0.16583772, y: 0.00000001490116, z: -0.036463983}
 --- !u!1001 &3287561108772135038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -896,8 +970,82 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3460368190523549815, guid: a8a3a6d769aed46d390a27fd5a1f4850, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3287561108772135041}
+    - targetCorrespondingSourceObject: {fileID: 3460368190523549815, guid: a8a3a6d769aed46d390a27fd5a1f4850, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3287561108772135040}
   m_SourcePrefab: {fileID: 100100000, guid: a8a3a6d769aed46d390a27fd5a1f4850, type: 3}
+--- !u!1 &3287561108772135039 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3460368190523549815, guid: a8a3a6d769aed46d390a27fd5a1f4850, type: 3}
+  m_PrefabInstance: {fileID: 3287561108772135038}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &3287561108772135040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287561108772135039}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.2606707, y: 4.2804327, z: 2.2022521}
+  m_Center: {x: -0.00000002968331, y: -0.6602845, z: 0.00024929206}
+--- !u!114 &3287561108772135041
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3287561108772135039}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 1
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 3287561108772135039}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &4926420368848232918
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -962,7 +1110,7 @@ SceneRoots:
   - {fileID: 908846639}
   - {fileID: 1913682102}
   - {fileID: 972611446}
-  - {fileID: 3287561108772135038}
-  - {fileID: 1866137888806683074}
   - {fileID: 75457791}
   - {fileID: 4926420368848232918}
+  - {fileID: 3287561108772135038}
+  - {fileID: 1866137888806683074}
