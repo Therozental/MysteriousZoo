@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -10,6 +10,7 @@ TagManager:
   - Ignore Raycast
   - 
   - Water
+  - UI
   - UI
   - 
   - 
@@ -36,8 +37,15 @@ TagManager:
   - 
   - 
   - 
-  - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2713173913
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Enviroment
+    uniqueID: 2727134691
+    locked: 0
+  m_RenderingLayers:
+  - Default
