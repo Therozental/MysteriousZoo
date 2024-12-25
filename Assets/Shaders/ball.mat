@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Speaker
+  m_Name: ball
   m_Shader: {fileID: -6465566751694194690, guid: a0209d1a24289458192121a2bf533734, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -16,7 +16,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: 2011
+  m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses:
   - MOTIONVECTORS
@@ -42,13 +42,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Max: 5
-    - _Min: -2
+    - _Max: 1.5
+    - _Min: 0.1
     - _QueueControl: 0
-    - _QueueOffset: 11
-    - _Shades: 0.26
+    - _QueueOffset: 0
+    - _Shades: 0.3
     m_Colors:
-    - _Color: {r: 0.49056602, g: 0.43813968, b: 0.42346027, a: 1}
+    - _Color: {r: 1, g: 0.3798433, b: 0.2688679, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3565369338929039513
