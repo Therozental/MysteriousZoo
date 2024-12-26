@@ -53,17 +53,19 @@ Material:
     m_Floats:
     - _Ambient: 0.3
     - _DepthColorFade: 5
+    - _FoamWidth: 0.28
     - _Metallic: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 1
-    - _Transparancy: 0.9
+    - _Transparancy: 0.8
     - _WaveHeight: 1.5
     - _WaveSpeed: 1
     - _WaveStrength: 0.5
     m_Colors:
     - _DeepColor: {r: 0.26517445, g: 0.6370494, b: 0.9528302, a: 1}
+    - _Foam_Color: {r: 1, g: 0, b: 0, a: 1}
     - _ShallowColor: {r: 0.12549019, g: 0.5294118, b: 0.43348032, a: 1}
-    - _Wave_Direction: {r: 0.3, g: 1, b: 0, a: 0}
+    - _Wave_Direction: {r: 1, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
