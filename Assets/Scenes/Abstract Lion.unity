@@ -210,10 +210,20 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 71abf6957a7364697a560c1fa1552d54, type: 3}
+--- !u!1 &27077058 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 1311322538}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &33195036 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 612332648}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &63995684 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 739717941}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &66841341
 PrefabInstance:
@@ -298,7 +308,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1304919558}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -359,7 +369,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 581902689}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!1 &68309792
 GameObject:
@@ -426,7 +439,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 653079966}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -487,7 +500,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1323865483}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &69874281 stripped
 Transform:
@@ -544,7 +560,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 383270586}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -609,7 +625,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1681591070}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!1001 &105364392
 PrefabInstance:
@@ -685,7 +704,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 383270586}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -701,7 +720,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
-      value: 313.0455
+      value: 313.04553
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.z
@@ -750,7 +769,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1435743120}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!1001 &116944513
 PrefabInstance:
@@ -758,7 +780,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 383270586}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -774,11 +796,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
-      value: 126.44753
+      value: 126.447525
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.z
-      value: 130.19365
+      value: 130.19363
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalPosition.x
@@ -827,7 +849,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1302515382}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &116944514 stripped
 Transform:
@@ -1024,6 +1049,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 138786250}
+  - component: {fileID: 138786251}
   m_Layer: 0
   m_Name: group3
   m_TagString: Untagged
@@ -1044,10 +1070,40 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 383270586}
-  - {fileID: 653079966}
+  - {fileID: 1681591066}
+  - {fileID: 116944514}
+  - {fileID: 1516942834}
+  - {fileID: 977082944}
+  - {fileID: 160633418}
+  - {fileID: 980755597}
+  - {fileID: 1311322539}
+  - {fileID: 190896674}
+  - {fileID: 69874281}
+  - {fileID: 392705358}
   m_Father: {fileID: 1435246628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &138786251
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138786249}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18c673fa6831c45d7a8dd97942eea95f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &152061892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
@@ -1116,7 +1172,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 383270586}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -1124,7 +1180,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.x
-      value: 340.19998
+      value: 340.19995
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
@@ -1181,7 +1237,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 965977600}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &160633418 stripped
 Transform:
@@ -1194,7 +1253,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1259034247}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -1255,7 +1314,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1584051703}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!1001 &179514054
 PrefabInstance:
@@ -1335,7 +1397,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 466268540}
+    m_TransformParent: {fileID: 359823738}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -1343,7 +1405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.x
-      value: 340.19998
+      value: 340.19995
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
@@ -1400,7 +1462,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1929206304}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &186962138 stripped
 Transform:
@@ -1413,7 +1478,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 653079966}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -1429,7 +1494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 62.179348
+      value: 62.179363
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1474,7 +1539,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 548514420}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &190896674 stripped
 Transform:
@@ -1552,6 +1620,11 @@ GameObject:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 67725870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &240506645 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 1331909639}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &280211429
 PrefabInstance:
@@ -1640,6 +1713,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 1331909639}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &338364405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 240506645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 359823739}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &339973870 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
@@ -1807,6 +1922,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 359823738}
+  - component: {fileID: 359823739}
   m_Layer: 0
   m_Name: group1
   m_TagString: Untagged
@@ -1827,10 +1943,36 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 817654107}
-  - {fileID: 466268540}
+  - {fileID: 1506609884}
+  - {fileID: 903909128}
+  - {fileID: 338364401}
+  - {fileID: 305445477}
+  - {fileID: 1312022761}
+  - {fileID: 1929206300}
   m_Father: {fileID: 1435246628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &359823739
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 359823737}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18c673fa6831c45d7a8dd97942eea95f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &359972830
 GameObject:
   m_ObjectHideFlags: 0
@@ -2249,50 +2391,13 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1034868756}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
---- !u!1 &383270585
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 383270586}
-  m_Layer: 0
-  m_Name: bush
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &383270586
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383270585}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1681591066}
-  - {fileID: 116944514}
-  - {fileID: 1516942834}
-  - {fileID: 977082944}
-  - {fileID: 160633418}
-  - {fileID: 980755597}
-  m_Father: {fileID: 138786250}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &392705357
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 653079966}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -2300,7 +2405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 215.09998
+      value: 215.09995
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.y
@@ -2357,7 +2462,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1649965746}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &392705358 stripped
 Transform:
@@ -2645,40 +2753,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 1292712878}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &466268539
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 466268540}
-  m_Layer: 0
-  m_Name: bush
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &466268540
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 466268539}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 305445477}
-  - {fileID: 1312022761}
-  - {fileID: 1929206300}
-  m_Father: {fileID: 359823738}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &480783832 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -2949,7 +3023,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1259034247}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -2961,11 +3035,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 327.486
+      value: 327.48596
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 443.20004
+      value: 443.20007
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3014,8 +3088,16 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1106182414}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+--- !u!1 &523561622 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 1932507337}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &525635839
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3285,6 +3367,53 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1015818336}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+--- !u!1 &548514416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 190896673}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &548514420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 548514416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &553453424 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
@@ -3306,7 +3435,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &556327098
 Transform:
   m_ObjectHideFlags: 0
@@ -3347,11 +3476,110 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &563869810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 92720202}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &566059244 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 882706642}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &572477065 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 2090123226}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &572477069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572477065}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+--- !u!1 &581902685 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 67725870}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &581902689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 581902685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &595291746 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -3537,48 +3765,13 @@ Transform:
   - {fileID: 1825688923}
   m_Father: {fileID: 2020370249}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &653079965
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 653079966}
-  m_Layer: 0
-  m_Name: rock
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &653079966
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653079965}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1311322539}
-  - {fileID: 190896674}
-  - {fileID: 69874281}
-  - {fileID: 392705358}
-  m_Father: {fileID: 138786250}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &661385629
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 817654107}
+    m_TransformParent: {fileID: 359823738}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -3639,7 +3832,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1506609888}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!1 &674252320 stripped
 GameObject:
@@ -3664,7 +3860,7 @@ MonoBehaviour:
   pointerExitActions: []
   triggerClickActions:
   - actionName: 
-    actionType: 0
+    actionType: 3
     changeCursorAction:
       cursorTexture: {fileID: 0}
     onOffAction:
@@ -3672,10 +3868,10 @@ MonoBehaviour:
       setActive: 0
     spriteRendererAction:
       receiverRenderer: {fileID: 0}
-      newColor: {r: 0, g: 0, b: 0, a: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
       newSprite: {fileID: 0}
     animatorAction:
-      receiverAnimator: {fileID: 0}
+      receiverAnimator: {fileID: 2078962581}
       parameterType: 0
       parameterName: shake
       parameterValue: 
@@ -3739,7 +3935,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1304919558}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -3804,7 +4000,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1377292083}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &741717662 stripped
 Transform:
@@ -4032,7 +4231,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1259034247}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -4044,11 +4243,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 111.034676
+      value: 111.03467
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 78.18515
+      value: 78.18514
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4093,7 +4292,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1647843527}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &800990169 stripped
 Transform:
@@ -4152,40 +4354,6 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
---- !u!1 &817654106
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 817654107}
-  m_Layer: 0
-  m_Name: rock
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &817654107
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 817654106}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1506609884}
-  - {fileID: 903909128}
-  - {fileID: 338364401}
-  m_Father: {fileID: 359823738}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &817993322
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4726,7 +4894,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 817654107}
+    m_TransformParent: {fileID: 359823738}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -4787,7 +4955,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 931885192}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &903909128 stripped
 Transform:
@@ -5008,6 +5179,53 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &931885188 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 903909127}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &931885192
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931885188}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 359823739}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &932788482 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8491874122842868327, guid: 519800bc9c53240b7825878dfe1623d3, type: 3}
@@ -5147,6 +5365,53 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+--- !u!1 &965977596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 160633417}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &965977600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 965977596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &969642005
 GameObject:
   m_ObjectHideFlags: 0
@@ -5163,7 +5428,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &969642006
 Transform:
   m_ObjectHideFlags: 0
@@ -5214,7 +5479,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 383270586}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -5279,7 +5544,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1590464600}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &980755597 stripped
 Transform:
@@ -5302,7 +5570,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &985595227
 Transform:
   m_ObjectHideFlags: 0
@@ -5767,6 +6035,11 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+--- !u!1 &1017194901 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 1915982994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1025417825
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5831,6 +6104,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2075846066}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+--- !u!1 &1028806925 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 661385629}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1032617752 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -5854,7 +6132,7 @@ MonoBehaviour:
   pointerExitActions: []
   triggerClickActions:
   - actionName: 
-    actionType: 0
+    actionType: 3
     changeCursorAction:
       cursorTexture: {fileID: 0}
     onOffAction:
@@ -5862,10 +6140,10 @@ MonoBehaviour:
       setActive: 0
     spriteRendererAction:
       receiverRenderer: {fileID: 0}
-      newColor: {r: 0, g: 0, b: 0, a: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
       newSprite: {fileID: 0}
     animatorAction:
-      receiverAnimator: {fileID: 0}
+      receiverAnimator: {fileID: 1504416256}
       parameterType: 0
       parameterName: shake
       parameterValue: 
@@ -5901,7 +6179,7 @@ MonoBehaviour:
   pointerExitActions: []
   triggerClickActions:
   - actionName: 
-    actionType: 0
+    actionType: 3
     changeCursorAction:
       cursorTexture: {fileID: 0}
     onOffAction:
@@ -5909,10 +6187,10 @@ MonoBehaviour:
       setActive: 0
     spriteRendererAction:
       receiverRenderer: {fileID: 0}
-      newColor: {r: 0, g: 0, b: 0, a: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
       newSprite: {fileID: 0}
     animatorAction:
-      receiverAnimator: {fileID: 0}
+      receiverAnimator: {fileID: 124302314}
       parameterType: 0
       parameterName: shake
       parameterValue: 
@@ -6104,7 +6382,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1072992036
 Transform:
   m_ObjectHideFlags: 0
@@ -6200,6 +6478,53 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1106182410 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 512637389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1106182414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106182410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &1107968693 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -6386,7 +6711,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1141282738
 Transform:
   m_ObjectHideFlags: 0
@@ -6587,6 +6912,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 1932507337}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1177311122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 523561622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &1201680372
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6651,7 +7018,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1304919558}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -6663,7 +7030,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
-      value: 196.3317
+      value: 196.33171
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.z
@@ -6712,7 +7079,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2044800293}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!1001 &1217150090
 PrefabInstance:
@@ -6794,42 +7164,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 786254378}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1259034246
+--- !u!1 &1268899869 stripped
 GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 1528221428}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1259034247}
-  m_Layer: 0
-  m_Name: rock
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1259034247
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1259034246}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1177311118}
-  - {fileID: 1584051699}
-  - {fileID: 1256792428}
-  - {fileID: 1528221429}
-  - {fileID: 484170604}
-  m_Father: {fileID: 2134043389}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1274887412 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -6923,7 +7262,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1304919558}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -6984,7 +7323,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2143036320}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!1001 &1297186658
 PrefabInstance:
@@ -7105,50 +7447,65 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
---- !u!1 &1304919557
+--- !u!1 &1301135288 stripped
 GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 170509332}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1302515378 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 116944513}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1302515382
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1304919558}
-  m_Layer: 0
-  m_Name: bush
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1304919558
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1304919557}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1915982995}
-  - {fileID: 88332421}
-  - {fileID: 186962138}
-  - {fileID: 1377292079}
-  - {fileID: 465693407}
-  - {fileID: 219599010}
-  m_Father: {fileID: 2134043389}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_GameObject: {fileID: 1302515378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &1311322538
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 653079966}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -7164,7 +7521,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 128.64687
+      value: 128.64684
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7209,25 +7566,117 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1311322543}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &1311322539 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 1311322538}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1311322543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 27077058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &1312022761 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 1917864340}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1323865479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 69874280}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1323865483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1323865479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &1331909639
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 817654107}
+    m_TransformParent: {fileID: 359823738}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -7239,7 +7688,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 245.79997
+      value: 245.79996
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
@@ -7292,7 +7741,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 338364405}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &1334691202 stripped
 Transform:
@@ -7422,6 +7874,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 739717941}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1377292083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63995684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &1390247534 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -7573,7 +8067,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 466268540}
+    m_TransformParent: {fileID: 359823738}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -7638,7 +8132,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1765420739}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!1 &1435246627
 GameObject:
@@ -7674,6 +8171,53 @@ Transform:
   - {fileID: 138786250}
   m_Father: {fileID: 2020370249}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1435743116 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 111309873}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1435743120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1435743116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &1453456700 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
@@ -7695,7 +8239,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1491550210
 Transform:
   m_ObjectHideFlags: 0
@@ -7850,6 +8394,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 661385629}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1506609888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028806925}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 359823739}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &1509059639 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -7903,7 +8489,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 383270586}
+    m_TransformParent: {fileID: 138786250}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -7972,7 +8558,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2109616496}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &1516942834 stripped
 Transform:
@@ -7985,7 +8574,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1259034247}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -7993,7 +8582,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 215.09999
+      value: 215.09998
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.y
@@ -8001,7 +8590,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 230.59956
+      value: 230.59958
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8046,13 +8635,58 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1528221433}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!4 &1528221429 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 1528221428}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1528221433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268899869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &1544955671
 GameObject:
   m_ObjectHideFlags: 0
@@ -8215,6 +8849,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
   m_PrefabInstance: {fileID: 170509332}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1584051703
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301135288}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+--- !u!1 &1590464596 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 980755596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1590464600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590464596}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &1603065569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8438,6 +9161,100 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+--- !u!1 &1647843523 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 786254378}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1647843527
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647843523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+--- !u!1 &1649965742 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+  m_PrefabInstance: {fileID: 392705357}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1649965746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1649965742}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &1661635039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
@@ -8614,6 +9431,48 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 92720202}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1681591070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 563869810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &1688023964 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8491874122842868327, guid: 519800bc9c53240b7825878dfe1623d3, type: 3}
@@ -8961,6 +9820,53 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1607830154}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+--- !u!1 &1765420735 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 1434587885}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1765420739
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765420735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 359823739}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!4 &1769291600 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -9389,6 +10295,11 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2137702793}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+--- !u!1 &1854520074 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 185397840}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1859667890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -9412,7 +10323,7 @@ MonoBehaviour:
   pointerExitActions: []
   triggerClickActions:
   - actionName: 
-    actionType: 0
+    actionType: 3
     changeCursorAction:
       cursorTexture: {fileID: 0}
     onOffAction:
@@ -9420,10 +10331,10 @@ MonoBehaviour:
       setActive: 0
     spriteRendererAction:
       receiverRenderer: {fileID: 0}
-      newColor: {r: 0, g: 0, b: 0, a: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
       newSprite: {fileID: 0}
     animatorAction:
-      receiverAnimator: {fileID: 0}
+      receiverAnimator: {fileID: 1952698692}
       parameterType: 0
       parameterName: shake
       parameterValue: 
@@ -9695,7 +10606,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1304919558}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -9703,7 +10614,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.x
-      value: 338.99997
+      value: 338.9999
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
@@ -9756,20 +10667,65 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1915982999}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &1915982995 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 1915982994}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1915982999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1017194901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &1917864340
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 466268540}
+    m_TransformParent: {fileID: 359823738}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -9834,20 +10790,65 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2131354793}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
 --- !u!4 &1929206300 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
   m_PrefabInstance: {fileID: 185397840}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1929206304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1854520074}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 359823739}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1001 &1932507337
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1259034247}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_Name
@@ -9859,7 +10860,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 75.126015
+      value: 75.12602
       objectReference: {fileID: 0}
     - target: {fileID: 8918017434437932718, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
       propertyPath: m_LocalScale.z
@@ -9912,7 +10913,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1177311122}
   m_SourcePrefab: {fileID: 100100000, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
 --- !u!1 &1936641888 stripped
 GameObject:
@@ -10709,6 +11713,53 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+--- !u!1 &2044800289 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 1215274765}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2044800293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044800289}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &2044930689 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -10949,7 +12000,7 @@ MonoBehaviour:
   pointerExitActions: []
   triggerClickActions:
   - actionName: 
-    actionType: 0
+    actionType: 3
     changeCursorAction:
       cursorTexture: {fileID: 0}
     onOffAction:
@@ -10957,10 +12008,10 @@ MonoBehaviour:
       setActive: 0
     spriteRendererAction:
       receiverRenderer: {fileID: 0}
-      newColor: {r: 0, g: 0, b: 0, a: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
       newSprite: {fileID: 0}
     animatorAction:
-      receiverAnimator: {fileID: 0}
+      receiverAnimator: {fileID: 619377247}
       parameterType: 0
       parameterName: shake
       parameterValue: 
@@ -11077,7 +12128,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1304919558}
+    m_TransformParent: {fileID: 2134043389}
     m_Modifications:
     - target: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_Name
@@ -11089,7 +12140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.y
-      value: 196.3317
+      value: 196.33171
       objectReference: {fileID: 0}
     - target: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
       propertyPath: m_LocalScale.z
@@ -11138,8 +12189,105 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 572477069}
   m_SourcePrefab: {fileID: 100100000, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+--- !u!1 &2109616492 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 1516942833}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2109616496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109616492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 138786251}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+--- !u!1 &2131354789 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 1917864340}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2131354793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131354789}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 359823739}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &2134043388
 GameObject:
   m_ObjectHideFlags: 0
@@ -11149,6 +12297,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2134043389}
+  - component: {fileID: 2134043390}
   m_Layer: 0
   m_Name: group2
   m_TagString: Untagged
@@ -11169,10 +12318,41 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1259034247}
-  - {fileID: 1304919558}
+  - {fileID: 1177311118}
+  - {fileID: 1584051699}
+  - {fileID: 1256792428}
+  - {fileID: 1528221429}
+  - {fileID: 484170604}
+  - {fileID: 1915982995}
+  - {fileID: 88332421}
+  - {fileID: 186962138}
+  - {fileID: 1377292079}
+  - {fileID: 465693407}
+  - {fileID: 219599010}
   m_Father: {fileID: 1435246628}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &2134043390
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134043388}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 18c673fa6831c45d7a8dd97942eea95f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!4 &2137702789 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6797492742007469798, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
@@ -11233,6 +12413,53 @@ MonoBehaviour:
       newSprite: {fileID: 0}
     animatorAction:
       receiverAnimator: {fileID: 1798114864}
+      parameterType: 0
+      parameterName: shake
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+--- !u!1 &2143036316 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6133439861435591772, guid: ab32d9a0fa68f46c68523719c7f32446, type: 3}
+  m_PrefabInstance: {fileID: 1292712878}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2143036320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2143036316}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions: []
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 2134043390}
       parameterType: 0
       parameterName: shake
       parameterValue: 
