@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: greens2
+  m_Name: old green
   m_Shader: {fileID: -6465566751694194690, guid: a0209d1a24289458192121a2bf533734, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -48,7 +48,7 @@ Material:
     - _QueueOffset: 0
     - _Shades: 0.2
     m_Colors:
-    - _Color: {r: 0.61768734, g: 0.754717, b: 0.3025988, a: 1}
+    - _Color: {r: 0.37254903, g: 0.8117647, b: 0.3764706, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &3565369338929039513
