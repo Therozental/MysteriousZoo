@@ -5891,6 +5891,7 @@ GameObject:
   - component: {fileID: 915900666}
   - component: {fileID: 915900667}
   - component: {fileID: 915900668}
+  - component: {fileID: 915900669}
   m_Layer: 0
   m_Name: Ball
   m_TagString: Untagged
@@ -6057,6 +6058,48 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &915900669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 915900661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lookEnterActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 915900668}
+      parameterType: 0
+      parameterName: fall
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+  lookExitActions: []
+  pointerEnterActions: []
+  pointerExitActions: []
+  triggerClickActions: []
 --- !u!1 &931885188 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -13293,7 +13336,7 @@ GameObject:
   - component: {fileID: 1994826738}
   - component: {fileID: 1994826737}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: tree hole
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
