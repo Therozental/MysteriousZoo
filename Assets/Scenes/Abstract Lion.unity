@@ -12505,6 +12505,31 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 1645308670}
+      parameterType: 0
+      parameterName: stop
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
 --- !u!1 &1647843523 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -15146,6 +15171,10 @@ PrefabInstance:
     - target: {fileID: 4258069623496535381, guid: e1c266a9b8f58405db0a2519cfa060ed, type: 3}
       propertyPath: m_IsActive
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5394891284674134977, guid: e1c266a9b8f58405db0a2519cfa060ed, type: 3}
+      propertyPath: startDelay.scalar
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5394891284674134977, guid: e1c266a9b8f58405db0a2519cfa060ed, type: 3}
       propertyPath: InitialModule.startSize.scalar
