@@ -10846,6 +10846,7 @@ GameObject:
   m_Component:
   - component: {fileID: 869325477}
   - component: {fileID: 869325476}
+  - component: {fileID: 869325478}
   m_Layer: 0
   m_Name: anti half 1
   m_TagString: Untagged
@@ -10923,6 +10924,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1829821478}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &869325478
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869325475}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 6.516508, y: 10.968481, z: 0.2}
+  m_Center: {x: -3.788806, y: 0.95515347, z: 0}
 --- !u!1001 &879426959
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18885,6 +18907,7 @@ Transform:
   - {fileID: 1149598224}
   - {fileID: 869325477}
   - {fileID: 1677585700}
+  - {fileID: 1994789142}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1829821479
@@ -18919,8 +18942,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 17.539753, y: 12.54388, z: 1}
+  m_Center: {x: 1.4192581, y: 0.36, z: 0}
 --- !u!114 &1829821481
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20454,12 +20477,12 @@ Transform:
   m_GameObject: {fileID: 1994789140}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.8, y: 6.1, z: 54.2}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1809963254}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1829821478}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1994930722
 GameObject:
@@ -23911,5 +23934,4 @@ SceneRoots:
   - {fileID: 1829821478}
   - {fileID: 1645308668}
   - {fileID: 1657558114}
-  - {fileID: 1994789142}
   - {fileID: 674426804}
