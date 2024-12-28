@@ -15991,6 +15991,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 236265448839805726, guid: d4f50c9f51a204a04b822fca306d7d41, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8985504933499516918}
+    - targetCorrespondingSourceObject: {fileID: 236265448839805726, guid: d4f50c9f51a204a04b822fca306d7d41, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 8985504933499516921}
   m_SourcePrefab: {fileID: 100100000, guid: d4f50c9f51a204a04b822fca306d7d41, type: 3}
 --- !u!4 &8985504933499516913 stripped
 Transform:
@@ -16031,7 +16034,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 80d80143fa2454a74aaf093c0b8b64b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookEnterActions: []
+  lookEnterActions:
+  - actionName: 
+    actionType: 3
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 8985504933499516916}
+      parameterType: 0
+      parameterName: fall
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
   lookExitActions: []
   pointerEnterActions: []
   pointerExitActions: []
@@ -16082,6 +16110,33 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.016720258, y: 0.018176699, z: 0.012779497}
   m_Center: {x: 0.00003078906, y: 0.00032590138, z: 0.0010111226}
+--- !u!54 &8985504933499516921
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1216136830}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
