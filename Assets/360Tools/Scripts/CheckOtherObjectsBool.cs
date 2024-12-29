@@ -17,6 +17,8 @@ public class CheckOtherObjectsBool : CustomActionScript
     public GameObject endingVisual;
     public int waitingTime;
     public AudioSource LightOffOnSound;
+    public GameObject sounds;
+    public GameObject specificTree;
 
     public bool areAllObjectsOn;    // Create a public bool variable to store the state of the objects.
 
@@ -65,6 +67,8 @@ public class CheckOtherObjectsBool : CustomActionScript
         await Task.Delay(waitingTime);
         blackCube.SetActive(false);
         LightOffOnSound.Play();
+        sounds.SetActive(false);
+        specificTree.SetActive(false);
         endingVisual.SetActive(true);
         
     }

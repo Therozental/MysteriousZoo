@@ -762,7 +762,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &56261868
 Transform:
   m_ObjectHideFlags: 0
@@ -13318,6 +13318,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1017933268582332537, guid: 7e1683d3cd82d42c5bd529b7784f914c, type: 3}
   m_PrefabInstance: {fileID: 835368022}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &843550883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5026837975646197587, guid: 519800bc9c53240b7825878dfe1623d3, type: 3}
+  m_PrefabInstance: {fileID: 992509372}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &846748860
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -17412,6 +17417,8 @@ MonoBehaviour:
   endingVisual: {fileID: 5767060995426039935}
   waitingTime: 4000
   LightOffOnSound: {fileID: 801726318}
+  sounds: {fileID: 477447352}
+  specificTree: {fileID: 843550883}
   areAllObjectsOn: 0
 --- !u!4 &1156326919
 Transform:
@@ -39148,7 +39155,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!65 &5785315783539853129
 BoxCollider:
   m_ObjectHideFlags: 0
