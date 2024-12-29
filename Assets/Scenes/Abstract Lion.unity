@@ -13341,6 +13341,7 @@ Transform:
   - {fileID: 944589006}
   - {fileID: 566059244}
   - {fileID: 595291746}
+  - {fileID: 2066630168}
   m_Father: {fileID: 650551173}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &985595228
@@ -15795,8 +15796,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.023380997, y: 0.023395155, z: 0.0392604}
-  m_Center: {x: -0.0000000037327808, y: 5.7017845e-12, z: -0.00033419183}
+  m_Size: {x: 0.026629355, y: 0.026645482, z: 0.044714913}
+  m_Center: {x: -0.000000003735199, y: 1.05157e-11, z: -0.0003341919}
 --- !u!54 &1279229665
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -19420,31 +19421,6 @@ MonoBehaviour:
     customAction:
       customActionScript: {fileID: 0}
   - actionName: 
-    actionType: 1
-    changeCursorAction:
-      cursorTexture: {fileID: 0}
-    onOffAction:
-      actionReceiver: {fileID: 942906767}
-      setActive: 1
-    spriteRendererAction:
-      receiverRenderer: {fileID: 0}
-      newColor: {r: 1, g: 1, b: 1, a: 1}
-      newSprite: {fileID: 0}
-    animatorAction:
-      receiverAnimator: {fileID: 0}
-      parameterType: 0
-      parameterName: 
-      parameterValue: 
-    soundAction:
-      source: {fileID: 0}
-      actionType: 0
-    eventAction:
-      eventTrigger:
-        m_PersistentCalls:
-          m_Calls: []
-    customAction:
-      customActionScript: {fileID: 0}
-  - actionName: 
     actionType: 3
     changeCursorAction:
       cursorTexture: {fileID: 0}
@@ -21420,6 +21396,8 @@ GameObject:
   - component: {fileID: 1829821479}
   - component: {fileID: 1829821481}
   - component: {fileID: 1829821480}
+  - component: {fileID: 1829821482}
+  - component: {fileID: 1829821483}
   m_Layer: 0
   m_Name: antilope
   m_TagString: Untagged
@@ -21435,17 +21413,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829821477}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 18.8, y: 6.1, z: 54.2}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_LocalRotation: {x: 0, y: 0.30070576, z: 0, w: 0.953717}
+  m_LocalPosition: {x: 51.5, y: 6.1, z: 13.3}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1149598224}
   - {fileID: 869325477}
   - {fileID: 1677585700}
   - {fileID: 1994789142}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 35, z: 0}
 --- !u!114 &1829821479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21496,7 +21474,142 @@ MonoBehaviour:
   lookExitActions: []
   pointerEnterActions: []
   pointerExitActions: []
-  triggerClickActions: []
+  triggerClickActions:
+  - actionName: 
+    actionType: 6
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 1829821479}
+  - actionName: 
+    actionType: 1
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 869325475}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+  - actionName: 
+    actionType: 1
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 1994789140}
+      setActive: 1
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 0}
+  - actionName: 
+    actionType: 6
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 1829821483}
+--- !u!95 &1829821482
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829821477}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4a71377d91ca04ae781523e096fc8c90, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1829821483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1829821477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a917607561cea40c1bc174fe4dab8af7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 1829821482}
 --- !u!1001 &1840212445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22126,7 +22239,6 @@ Transform:
   - {fileID: 942906768}
   - {fileID: 734640760}
   - {fileID: 2018321605}
-  - {fileID: 2066630168}
   - {fileID: 1279229660}
   - {fileID: 8985504933499516913}
   - {fileID: 1991913695}
@@ -23970,7 +24082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.95501995
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.x
@@ -23978,7 +24090,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: 0.2965416
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.z
@@ -23990,7 +24102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: 34.5
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537223109680, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_Name
@@ -25672,8 +25784,8 @@ Transform:
   m_GameObject: {fileID: 2066630167}
   serializedVersion: 2
   m_LocalRotation: {x: -0.047160886, y: -0.32097784, z: 0.012424871, w: 0.94583017}
-  m_LocalPosition: {x: 25.238, y: -0.629, z: -9.651}
-  m_LocalScale: {x: 0.16, y: 0.16, z: 0.16}
+  m_LocalPosition: {x: 41.86969, y: -3.9604094, z: 5.357787}
+  m_LocalScale: {x: 0.16000001, y: 0.16000001, z: 0.16}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1448580701}
@@ -25681,7 +25793,7 @@ Transform:
   - {fileID: 1855874634}
   - {fileID: 778073744}
   - {fileID: 2054075060}
-  m_Father: {fileID: 1903158806}
+  m_Father: {fileID: 985595227}
   m_LocalEulerAnglesHint: {x: -4.66, y: -37.616, z: 3.093}
 --- !u!82 &2066630169
 AudioSource:
