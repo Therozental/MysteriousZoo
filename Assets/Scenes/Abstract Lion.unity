@@ -4744,12 +4744,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 505005757}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0.7933534, z: 0, w: 0.6087614}
-  m_LocalPosition: {x: -82.6, y: 22.2, z: -25.7}
-  m_LocalScale: {x: 1.7, y: 1.7, z: 1.7}
+  m_LocalRotation: {x: -0, y: -0.7933534, z: -0, w: 0.6087614}
+  m_LocalPosition: {x: -115.67, y: -19.419998, z: -3.1200008}
+  m_LocalScale: {x: 1.7000002, y: 1.7, z: 1.7000002}
   m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 7794007538740414707}
   m_LocalEulerAnglesHint: {x: 0, y: -105, z: 0}
 --- !u!1001 &512637389
 PrefabInstance:
@@ -16031,7 +16031,10 @@ MonoBehaviour:
   - {fileID: 1829821479}
   - {fileID: 1279229662}
   objectsThatAreOn: []
-  blackCube: {fileID: 0}
+  blackCube: {fileID: 2029550737}
+  endingVisual: {fileID: 5767060995426039935}
+  waitingTime: 4000
+  LightOffOnSound: {fileID: 801726318}
   areAllObjectsOn: 0
 --- !u!4 &1156326919
 Transform:
@@ -25920,7 +25923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.5969253
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.x
@@ -25928,7 +25931,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0.8022968
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalRotation.z
@@ -25940,7 +25943,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537214125311, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: -106.7
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8158202537223109680, guid: ea2871ecacf494010a6a67c1c80ea903, type: 3}
       propertyPath: m_Name
@@ -36412,7 +36415,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7794007538740414707}
   m_Layer: 0
-  m_Name: ending visuals
+  m_Name: ENDING
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -38941,6 +38944,7 @@ Transform:
   - {fileID: 2312282788452059887}
   - {fileID: 4250989115989847291}
   - {fileID: 2023307902}
+  - {fileID: 505005759}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &7849148256130761084 stripped
@@ -40444,4 +40448,3 @@ SceneRoots:
   - {fileID: 674426804}
   - {fileID: 477447353}
   - {fileID: 7794007538740414707}
-  - {fileID: 505005759}
