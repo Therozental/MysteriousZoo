@@ -15124,11 +15124,7 @@ MonoBehaviour:
   - {fileID: 1645308669}
   - {fileID: 1829821479}
   - {fileID: 1279229662}
-  objectsThatAreOn:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  objectsThatAreOn: []
   areAllObjectsOn: 0
 --- !u!4 &1156326919
 Transform:
@@ -15139,9 +15135,9 @@ Transform:
   m_GameObject: {fileID: 1156326916}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.54954827, y: 6.0100513, z: -21.62803}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
+  m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15730,7 +15726,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4817480677991594682, guid: 2498904591ec2466ba4879f8f48df108, type: 3}
       propertyPath: m_LocalScale.z
-      value: 24.857391
+      value: 24.857397
       objectReference: {fileID: 0}
     - target: {fileID: 4817480677991594682, guid: 2498904591ec2466ba4879f8f48df108, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16068,6 +16064,31 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+  - actionName: 
+    actionType: 6
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 1156326917}
 --- !u!1001 &1279940950
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19347,14 +19368,14 @@ Transform:
   m_GameObject: {fileID: 1645308667}
   serializedVersion: 2
   m_LocalRotation: {x: -0.23487772, y: 0.25498068, z: 0.6355023, w: -0.6898943}
-  m_LocalPosition: {x: -19.9, y: 2.8, z: 30.6}
-  m_LocalScale: {x: 0.35, y: 0.35, z: 0.35}
+  m_LocalPosition: {x: -23.590723, y: 0.30074716, z: 28.927092}
+  m_LocalScale: {x: 0.35, y: 0.34999996, z: 0.35}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1620493340}
   - {fileID: 286124426}
   - {fileID: 1359603031}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1903158806}
   m_LocalEulerAnglesHint: {x: 0, y: -40.568, z: 274.7}
 --- !u!114 &1645308669
 MonoBehaviour:
@@ -19554,6 +19575,31 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 1645308669}
+  - actionName: 
+    actionType: 6
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 1156326917}
 --- !u!1 &1647843523 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8109005147907656724, guid: be4ff660f4bb4423a8df50272202092e, type: 3}
@@ -21360,10 +21406,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1829821478}
   - component: {fileID: 1829821479}
+  - component: {fileID: 1829821483}
   - component: {fileID: 1829821481}
   - component: {fileID: 1829821480}
   - component: {fileID: 1829821482}
-  - component: {fileID: 1829821483}
   m_Layer: 0
   m_Name: antilope
   m_TagString: Untagged
@@ -21379,16 +21425,16 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829821477}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.30070576, z: 0, w: 0.953717}
-  m_LocalPosition: {x: 51.5, y: 6.1, z: 13.3}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalRotation: {x: -0, y: 0.30070576, z: -0, w: 0.953717}
+  m_LocalPosition: {x: 47.809277, y: 3.600747, z: 11.627091}
+  m_LocalScale: {x: 0.8000001, y: 0.8, z: 0.8000001}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 1149598224}
   - {fileID: 869325477}
   - {fileID: 1677585700}
   - {fileID: 1994789142}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1903158806}
   m_LocalEulerAnglesHint: {x: 0, y: 35, z: 0}
 --- !u!114 &1829821479
 MonoBehaviour:
@@ -21566,6 +21612,31 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+  - actionName: 
+    actionType: 6
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 1156326917}
 --- !u!95 &1829821482
 Animator:
   serializedVersion: 7
@@ -22229,10 +22300,12 @@ Transform:
   m_Children:
   - {fileID: 942906768}
   - {fileID: 734640760}
-  - {fileID: 2018321605}
-  - {fileID: 1279229660}
   - {fileID: 8985504933499516913}
   - {fileID: 1991913695}
+  - {fileID: 1829821478}
+  - {fileID: 2018321605}
+  - {fileID: 1279229660}
+  - {fileID: 1645308668}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1906129595
@@ -24642,6 +24715,31 @@ MonoBehaviour:
           m_Calls: []
     customAction:
       customActionScript: {fileID: 0}
+  - actionName: 
+    actionType: 6
+    changeCursorAction:
+      cursorTexture: {fileID: 0}
+    onOffAction:
+      actionReceiver: {fileID: 0}
+      setActive: 0
+    spriteRendererAction:
+      receiverRenderer: {fileID: 0}
+      newColor: {r: 1, g: 1, b: 1, a: 1}
+      newSprite: {fileID: 0}
+    animatorAction:
+      receiverAnimator: {fileID: 0}
+      parameterType: 0
+      parameterName: 
+      parameterValue: 
+    soundAction:
+      source: {fileID: 0}
+      actionType: 0
+    eventAction:
+      eventTrigger:
+        m_PersistentCalls:
+          m_Calls: []
+    customAction:
+      customActionScript: {fileID: 1156326917}
 --- !u!95 &2018321611
 Animator:
   serializedVersion: 7
@@ -26937,7 +27035,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4817480677991594682, guid: 2498904591ec2466ba4879f8f48df108, type: 3}
       propertyPath: m_LocalScale.z
-      value: 27.43998
+      value: 27.439991
       objectReference: {fileID: 0}
     - target: {fileID: 4817480677991594682, guid: 2498904591ec2466ba4879f8f48df108, type: 3}
       propertyPath: m_LocalPosition.x
@@ -26945,7 +27043,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4817480677991594682, guid: 2498904591ec2466ba4879f8f48df108, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.51
+      value: 3.5099998
       objectReference: {fileID: 0}
     - target: {fileID: 4817480677991594682, guid: 2498904591ec2466ba4879f8f48df108, type: 3}
       propertyPath: m_LocalPosition.z
@@ -27902,8 +28000,6 @@ SceneRoots:
   - {fileID: 1156326919}
   - {fileID: 2020370249}
   - {fileID: 1903158806}
-  - {fileID: 1829821478}
-  - {fileID: 1645308668}
   - {fileID: 1657558114}
   - {fileID: 674426804}
   - {fileID: 477447353}
