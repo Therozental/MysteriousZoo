@@ -15124,7 +15124,11 @@ MonoBehaviour:
   - {fileID: 1645308669}
   - {fileID: 1829821479}
   - {fileID: 1279229662}
-  objectsThatAreOn: []
+  objectsThatAreOn:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   areAllObjectsOn: 0
 --- !u!4 &1156326919
 Transform:
