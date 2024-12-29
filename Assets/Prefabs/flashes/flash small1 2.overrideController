@@ -1,0 +1,13 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: flash small1 2
+  m_Controller: {fileID: 9100000, guid: 4eb7ff530ddab49dd833c67077e297b7, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 7f354b41b87d94123abab2442cc131e1, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: fa2a06e3dfc194f3190fc79f0d7c483e, type: 2}
