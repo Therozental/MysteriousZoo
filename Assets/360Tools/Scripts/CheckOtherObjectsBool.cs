@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 
 // 1) Use the 360Tools library.
@@ -12,6 +13,12 @@ public class CheckOtherObjectsBool : CustomActionScript
     public List<TurnBoolOnOff> objectsToCheck;    // Create a public list of GameObjects to store the objects we want to check.
     // These objects should have the TurnBoolOnOff script attached to them.
     public List<TurnBoolOnOff> objectsThatAreOn;
+    public GameObject blackCube;
+    public GameObject endingVisual;
+    public int waitingTime;
+    public AudioSource LightOffOnSound;
+    public GameObject sounds;
+    public GameObject specificTree;
 
     public bool areAllObjectsOn;    // Create a public bool variable to store the state of the objects.
 
@@ -41,6 +48,7 @@ public class CheckOtherObjectsBool : CustomActionScript
             if (objectsThatAreOn.Count == objectsToCheck.Count)
             {
                 areAllObjectsOn = true;
+                EndingSequence();
                 //set active to the ending sprites and story animation
             }
             else
@@ -49,5 +57,21 @@ public class CheckOtherObjectsBool : CustomActionScript
             }
             
         }
+        
     }
+    
+    public async Task EndingSequence()
+    {
+        blackCube.SetActive(true);
+        LightOffOnSound.Play();
+        await Task.Delay(waitingTime);
+        blackCube.SetActive(false);
+        LightOffOnSound.Play();
+        sounds.SetActive(false);
+        specificTree.SetActive(false);
+        endingVisual.SetActive(true);
+        
+    }
+
+    
 }
